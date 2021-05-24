@@ -57,6 +57,7 @@ public class OperacionesTest {
      * Test of mayor method, of class Operaciones.
      */
     @Test
+    @Ignore
     public void testMayor() {
         System.out.println("mayor");
         Operaciones instance = new Operaciones();
@@ -71,7 +72,6 @@ public class OperacionesTest {
      * Test of sumarVector method, of class Operaciones.
      */
     @Test
-    @Ignore
     public void testSumarVector() {
         System.out.println("sumarVector");
         Operaciones instance = new Operaciones();
