@@ -42,7 +42,7 @@ public class OperacionesTest {
      * Test of sumarPar method, of class Operaciones.
      */
     @Test
-    
+    @Ignore
     public void testSumarPar() {
         System.out.println("sumarPar");
         Operaciones instance = new Operaciones();
@@ -57,7 +57,6 @@ public class OperacionesTest {
      * Test of mayor method, of class Operaciones.
      */
     @Test
-    @Ignore
     public void testMayor() {
         System.out.println("mayor");
         Operaciones instance = new Operaciones();
